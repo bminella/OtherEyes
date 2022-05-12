@@ -24,7 +24,7 @@
 ---
 ## 📝 Ideia e Layout
 
-![image](https://user-images.githubusercontent.com/98534865/163567591-00ab1ffa-4d35-4736-88f8-39a28eb70b46.png)
+![image](https://user-images.githubusercontent.com/98534865/167969289-4b9b6b7f-eea3-42e3-b1ad-0399d0b04cd7.png)
 
 
 
