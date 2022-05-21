@@ -45,6 +45,7 @@ As ferramentas que serão utilizadas na construção do projeto:
 
 
 ### Mobile Android  ([Kotlin](https://kotlinlang.org/))
+- StaggeredGridLayout
 - [Coroutines](https://kotlinlang.org/docs/reference/coroutines-overview.html)
 - [Flow](https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines.flow/-flow/) 
 - [Android Architecture Components](https://developer.android.com/topic/libraries/architecture) 
