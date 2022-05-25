@@ -45,13 +45,13 @@ As ferramentas que serão utilizadas na construção do projeto:
 
 
 ### Mobile Android  ([Kotlin](https://kotlinlang.org/))
-- StaggeredGridLayout
 - [Coroutines](https://kotlinlang.org/docs/reference/coroutines-overview.html)
 - [Flow](https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines.flow/-flow/) 
 - [Android Architecture Components](https://developer.android.com/topic/libraries/architecture) 
   - [LiveData](https://developer.android.com/topic/libraries/architecture/livedata)
   - [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel)
   - [ViewBinding](https://developer.android.com/topic/libraries/view-binding) 
+  - StaggeredGridLayout
 - [Dependency Injection](https://developer.android.com/training/dependency-injection)
   - [Hilt](https://dagger.dev/hilt)
 - [Retrofit](https://square.github.io/retrofit/)
