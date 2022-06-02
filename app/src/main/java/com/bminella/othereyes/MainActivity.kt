@@ -2,10 +2,16 @@ package com.bminella.othereyes
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.StaggeredGridLayoutManager
 import com.bminella.othereyes.Adapter.OtherEyesAdapter
 import com.bminella.othereyes.Model.OtherEyesModel
+import com.bminella.othereyes.Model.UnsplashQueryResult
+import com.bminella.othereyes.api.ApiInterface
+import retrofit2.Call
+import retrofit2.Callback
+import retrofit2.Response
 
 class MainActivity : AppCompatActivity() {
 
@@ -23,6 +29,28 @@ class MainActivity : AppCompatActivity() {
         rvOtherEyes.adapter = adapter
 
         otherEyesAssemble()
+
+        val apiInterface = ApiInterface.create().getPhotosBySearch()
+
+        //apiInterface.enqueue( Callback<List<Movie>>())
+        apiInterface.enqueue( object : Callback<UnsplashQueryResult> {
+            override fun onResponse(call: Call<UnsplashQueryResult>?, response: Response<UnsplashQueryResult>?) {
+
+                if(response?.body() != null){
+                    Log.d("test",response.body()!!.toString())
+                    Log.d("test",response.body()!!.results.toString())
+                    val url = response.body()!!.results[0].urls.small
+                    Log.d("test",url)
+                }
+                //    recyclerAdapter.setMovieListItems(response.body()!!)
+            }
+
+            override fun onFailure(call: Call<UnsplashQueryResult>?, t: Throwable?) {
+
+            }
+        })
+
+
 
     }
 
