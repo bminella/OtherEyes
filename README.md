@@ -45,8 +45,6 @@ As ferramentas que serão utilizadas na construção do projeto:
 
 
 ### Mobile Android  ([Kotlin](https://kotlinlang.org/))
-- [Coroutines](https://kotlinlang.org/docs/reference/coroutines-overview.html)
-- [Flow](https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines.flow/-flow/) 
 - [Android Architecture Components](https://developer.android.com/topic/libraries/architecture) 
   - [LiveData](https://developer.android.com/topic/libraries/architecture/livedata)
   - [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel)
@@ -57,9 +55,7 @@ As ferramentas que serão utilizadas na construção do projeto:
 - [Retrofit](https://square.github.io/retrofit/)
 - [Material Components for Android](https://github.com/material-components/material-components-android)
 - [Gradle Kotlin DSL](https://docs.gradle.org/current/userguide/kotlin_dsl.html)
-- [MockK](https://mockk.io)
 - [Firebase](https://firebase.google.com/?hl=pt)
-- 
 - [MVVM]
 
 
