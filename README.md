@@ -38,7 +38,7 @@
 
 
 - Navegar pelas fotografias aleatórias.
-- Escolher uma categoria através da lista ou buscar por um tema especifico na barra de pesquisa.
+- Escolher uma categoria ou um tema especifico na barra de pesquisa.
 - Ao clicar em uma imagem ela aparece em destaque ocupando toda a tela
 	- Adicionar a foto a lista de favoritas
 	- Fazer o download da imagem
